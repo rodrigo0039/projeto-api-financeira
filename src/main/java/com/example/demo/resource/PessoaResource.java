@@ -80,4 +80,6 @@ public class PessoaResource {
 	public void atualizarAtivo(@PathVariable Long codigo,@RequestBody Boolean ativo) {
 		pessoaService.atualizarAtivo(codigo, ativo);
 	}
+	
+	
 }
